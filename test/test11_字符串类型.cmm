@@ -1,0 +1,29 @@
+/* * 字符串类型测试
+ * 
+ * 字符串类型测试
+ * 	字符串变量的声明与赋值
+ *	字符串变量的读写操作
+ * 
+ * 2010-12-19
+ * 吴文苑
+ */
+
+//声明字符串变量
+string string_1 = "string_1";
+//声明字符串数组变量
+string strings[2];
+strings[0] = "stringArray_1";
+//读取字符串
+read(strings[1]);
+
+//字符串写操作
+write(string_1);
+write(strings[0]);
+write(strings[1]);
+
+/*output:
+ *array    #输入
+ *string_1
+ *stringArray_1
+ *array
+ *///:~

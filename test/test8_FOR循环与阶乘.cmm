@@ -1,0 +1,22 @@
+/**
+ * FOR循环与阶乘测试
+ * 
+ * FOR循环与阶乘测试：
+ * 	利用FOR循环语句阶乘
+ *	a = N!,其中N为整数
+ * 
+ * 2010-12-19
+ * 吴文苑
+ */
+
+int a;
+int factorial = 1;
+// FOR循环
+for(a = 6; a <> 0; a = a - 1){
+	factorial = factorial * a;
+}
+write(factorial);
+
+/*output:
+ *720
+ *///:~  

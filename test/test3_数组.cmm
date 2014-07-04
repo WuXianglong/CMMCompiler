@@ -1,0 +1,49 @@
+/**
+ * 数组测试
+ * 
+ * 数组测试 主要是：
+ * 	1.数组下标
+ * 	2.数组赋值,包括 
+ *		1)直接赋值; 
+ *		2)算术运算赋值; 
+ *		3)变量赋值; 
+ *		4)read赋值
+ *
+ * 2010-12-19
+ * 吴文苑
+ */
+
+real realArray[6]; //声明实数数组
+int  intArray [2]; //声明整形数组
+real a = 2.0;
+int b = 0;
+
+intArray[0] = 0;
+intArray[1] = 1;
+
+//给数组赋值
+realArray[b] = 2;
+realArray[1] = a;
+realArray[2] = intArray[0];
+a = 0.9;
+realArray[3] = a;
+realArray[4] = 5 - 2 / (4.0 - 3) * 2.5 + 0.01; 
+
+read(realArray[5]);
+
+//打印数组
+int x = 0;
+while(x < 6){
+	write(realArray[x]);
+	x = x + 1;
+}
+
+/*output:
+ *23.33	  #输入的数字
+ *2.0
+ *2.0
+ *0.0
+ *0.9
+ *0.01
+ *23.33
+ *///:~

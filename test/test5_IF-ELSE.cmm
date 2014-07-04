@@ -1,0 +1,39 @@
+/**
+ * IF-ELSE ²âÊÔ
+ * 
+ * IF-ELSE ²âÊÔ Ö÷ÒªÊÇ£º
+ * 	1.Ìõ¼þÅÐ¶Ï
+ * 	2.Óï¾äÖ´ÐÐ
+ * 	3.IF-ELSE Ç¶Ì×
+ *
+ * 2010-12-19
+ * ÎâÎÄÔ·
+ */
+
+int a;
+a=1;
+if(a * 5 == 5){
+  real r ;
+  r = 2.0;
+  if(r > 0)
+	write(r);
+}else{
+   a=5;
+   write(a);
+} 
+
+//if Ç¶Ì×
+int aa = 3;
+if(aa < 4){
+	if(2 < aa){
+		if(aa <> 3)
+			write(aa);
+		else
+			write(aa-2);
+	}
+}
+
+/*output:
+ *2.0
+ *1
+ *///:~

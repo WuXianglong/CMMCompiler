@@ -1,0 +1,39 @@
+/**
+ * bool类型测试
+ * 
+ * bool类型测试
+ * 	bool变量的声明、赋值
+ *  bool变量的读写操作
+ *  bool变量作为if和while语句的判断条件
+ * 
+ * 2010-12-19
+ * 吴文苑
+ */
+
+//声明bool变量,并赋值
+bool b = true;
+
+//声明bool变量数组
+bool boolArray[4];
+boolArray[0] = false;  //直接用true或false赋值
+boolArray[1] = 3 > 2;  //利用逻辑表达式进行赋值
+boolArray[2] = 0;      //利用整数赋值,大于0为true,否则为false
+read(boolArray[3]);    //利用read语句赋值
+
+//将bool变量作为判断条件
+int index = 0;
+while(b){
+	if(index > 3)
+		b = false;
+	else
+		write(boolArray[index]);
+	index = index + 1;
+}
+
+/*output:
+ *true    #输入
+ *false
+ *true
+ *false
+ *true
+ *///:~

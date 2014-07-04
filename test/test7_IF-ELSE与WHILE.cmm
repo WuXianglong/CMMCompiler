@@ -1,0 +1,37 @@
+/**
+ * IF-ELSE 与 WHILE 混合嵌套 测试
+ * 
+ * IF-ELSE 与 WHILE 混合嵌套 测试 主要是：
+ * 	1.条件判断
+ * 	2.语句执行
+ * 	3.IF-ELSE 与 WHILE 混合 嵌套
+ * 
+ * 2010-12-19
+ * 吴文苑
+ */
+
+int a = 4;
+while(a <> 0){
+	int j = a;
+	while(j <> 0){
+		if(j/2 <> 1)
+			write(j);
+		j = j-1;	
+	}
+	if( a < 2)
+		write(a);
+	else
+		write(a+3);
+	a = a -1;
+}
+/*output:
+ *4
+ *1
+ *7
+ *1
+ *6
+ *1
+ *5
+ *1
+ *1
+ *///:~
